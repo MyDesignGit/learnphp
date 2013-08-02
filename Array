@@ -1,0 +1,23 @@
+<?php 
+
+// $cats_sites = array('cat1+', 'cat2+', 'cat3+', 'cat4+','cat5' );
+$cats_sites = ['cat1+', 'cat2+', 'cat3+', 'cat4+','cat5+' ];
+ ?>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navigation</title>
+</head>
+<body>
+<h1>Menu Testing</h1>
+<ul>
+	<?php foreach($cats_sites as $site){
+			echo "<li>$site</li>";
+
+	}
+?>
+</ul>
+
+</body>
+</html>
